@@ -1,0 +1,13 @@
+[package]
+name = "raycaster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clock_ticks = "0.1.1"
+image = "0.25.2"
+rand = "0.8.5"
+sdl2 = "0.34.5"
+
+[profile.release]
+debug = true
